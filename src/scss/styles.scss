@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700');
+
+@font-face {
+	font-family: "Proxima Nova Bold";
+	src: url("../fonts/Proxima Nova Bold.otf");
+}
+
+@font-face {
+	font-family: "Proxima Nova Semibold";
+	src: url("../fonts/Proxima Nova Semibold.otf");
+}
+
+body {
+	color: #665f60;
+	background-color: #ebebeb;
+	font: 14px/2.1 'PT Sans', Arial, sans-serif;
+}
+
+#map {
+	width: 100%;
+	height: 800px;
+	opacity: .5;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.section {
+	padding: 5rem 0;
+	&__title {
+		text-transform: uppercase;
+		font: 2.3rem "Proxima Nova Semibold", Arial, sans-serif;
+	}
+	&__link {
+		font: 1.2rem "Proxima Nova Semibold", Arial, sans-serif;
+		color: #fff;
+	}
+	&--header {
+		background:  linear-gradient(rgba(159, 154, 207, .5) 50%, rgba(159, 154, 207, .5) 50%), url(../img/bg-header.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		position: relative;
+		padding: 2rem 0;
+	}
+	&__text {
+		position: absolute;
+		top: 35%;
+		left: 50%;
+		transform: translate(-50%, 0); 
+	}
+	&__title--header {
+		font: 3rem "Proxima Nova Bold", Arial, sans-serif;
+		letter-spacing: 3px;
+	}
+	&__subtitle--header {
+		width: 50%;
+		font-size: 1.4rem;
+		line-height: 1.2;
+	}
+	&--about {
+		padding: 5rem 0 0;
+	}
+	&--caption {
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		transform: translate(-40%, 0);
+		font-family: "Proxima Nova Semibold", Arial, sans-serif;
+		padding: 0;
+	}
+	&--description {
+		font-size: 1.2rem;
+		margin-bottom: 5rem;
+		line-height: 1.4;
+	}
+	&--skills {
+		margin-top: 7rem;
+	}
+	&__skill {
+		height: 25rem;
+		padding: 2rem;
+		position: relative;
+	}
+	&__content {
+		width: 17rem;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	&__title--skills {
+		font-size: 1.5rem;
+	}
+	&__subtitle--skills {
+		width: 11rem;
+		font-size: 1rem;
+		line-height: 1.2;
+		margin: 0 auto;
+		font-style: italic;
+	}
+	&__bottom {
+		position: absolute;
+		left: 0;
+		bottom: -1rem;
+	}
+	&__author {
+		font-size: 1rem;
+		line-height: 1.4;
+		margin: 0;
+	}
+	&--works {
+		background:  linear-gradient(rgba(182, 178, 215, .97) 50%, rgba(182, 178, 215, .97) 50%), url(../img/bg-works.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		color: #fff;
+	}
+	&__btn {
+		border-color: #fff;
+		color: #fff;
+	}
+	&__slider {
+		margin-top: 15rem;
+	}
+	&__column {
+		height: 20rem;
+		position: relative;
+		text-align: center;
+		background-color: #fff;
+	}
+	&__information {
+		width: 100%;
+		position: absolute;
+		top: 70%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	&__img {
+		border: 15px solid #ebebeb;
+		border-radius: 50%;
+		position: absolute;
+		top: -50%;
+		left: 10%;
+	}
+	&__name {
+		text-transform: uppercase;
+		color: #9f9acf;
+		font: 1.7rem "Proxima Nova Bold", Arial, sans-serif;
+		margin: 0;
+	}
+	&__proff {
+		font-style: italic;
+		margin: 0;
+		font-size: 1.7rem;
+	}
+	&__socials {
+		display: flex;
+		justify-content: space-around;
+		list-style: none;
+		background-color: #9f9acf; 
+		width: 100%;
+		position: absolute;
+		bottom: -3.5rem;
+		left: 0;
+	}
+	&__social {
+	
+	}
+	&__link--team,
+	&__link--footer {
+		
+	}
+	&--touch {
+		padding: 0;
+		background-color: #9f9acf;
+		position: relative;
+	}
+	&--caption-touch {
+		
+	}
+	&__form {
+		width: 45rem;
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	&__input {
+		padding: .5rem 1rem;
+		border: 0;
+		outline: none;
+		cursor: pointer;
+		background-color: rgba(235, 235, 235, .4);
+		color: #fff;
+		font-style: italic;
+		font-size: 1rem;
+		&::-webkit-input-placeholder {
+			color: #fff;	
+		}
+		&--sm {
+			width: 100%;
+		}
+	}
+	&__btn--form {
+		background-color: #9f9acf;
+		color: #fff;
+		border: 0;
+		text-transform: uppercase;
+		font: 1rem "Proxima Nova Bold", Arial, sans-serif;
+		letter-spacing: 1px;
+	}
+	&--footer {
+		background-color: #9f9acf;
+	}
+	&__info {
+		letter-spacing: .7px;
+	}
+}
+
+.slider {
+	margin-bottom: 5rem;
+}
+
+.slide {
+	display: block;
+}
+
+.slide-2 {
+
+}
